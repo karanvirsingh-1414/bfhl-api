@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const OFFICIAL_EMAIL = process.env.OFFICIAL_EMAIL
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY 
 
