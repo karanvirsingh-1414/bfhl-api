@@ -1,2 +1,22 @@
+<<<<<<< HEAD
 node_modules
 .env
+=======
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+.classpath
+.project
+.settings
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+*.launch
+.idea
+*.iml
+*.ipr
+*.iws
+.DS_Store
+logs/
+*.log
+>>>>>>> a5e341f04a1a74461aeb53e812942209ec550bbc
